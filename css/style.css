@@ -1,0 +1,22 @@
+body{
+
+}
+
+/* haeder  */
+/* haeder  */
+
+/* banner  */
+.banner_img{
+    filter: brightness(0.5);
+}
+
+.custom_caption{
+    bottom: 9rem !important;
+}
+.custom_caption h1{
+    font-size: 65px;
+}
+.custom_caption p{
+    font-size: 20px;
+}
+/* banner  */
