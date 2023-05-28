@@ -11,7 +11,7 @@ body{
 }
 
 .custom_caption{
-    bottom: 9rem !important;
+    bottom: 7rem !important;
 }
 .custom_caption h1{
     font-size: 65px;
@@ -20,3 +20,71 @@ body{
     font-size: 20px;
 }
 /* banner  */
+
+/* Discover Our Popular Courses Section start */
+.section_title{
+
+ 
+}
+.section_title h1{
+   
+    font-weight: 700;
+
+
+}
+.section_title p{
+    color: #777777;
+}
+
+/* Discover Our Popular Courses Section start */
+
+.course { 
+    
+
+}
+.course img{ 
+    width: 30%;
+
+}
+.course_details {
+padding:10px;    margin-top: auto;
+margin-bottom: auto;
+}
+.course_details h3{
+font-size: 25px
+}
+.course_details p{
+    color: #777;
+    font-size: 16px;
+}
+.course_details h4{
+    font-size: 18px;
+    margin: 0;
+    color: #289BDE;
+}
+/* Discover Our Popular Courses Section start */
+
+/* Explore The elearning Institute section start */
+.expolore{
+    background-color: #F4FAFD;
+}
+.expolore_details {
+    
+}
+.expolore_details h1{
+
+}
+.expolore_details p{
+    color: #777777;
+    line-height: 30px;
+}
+.online_course_2k{
+    
+    line-height: 25px;
+}
+.online_Course{
+    font-size: 16px;
+    color: #777777;
+    font-weight: 500;
+}
+/* Explore The elearning Institute section start */
