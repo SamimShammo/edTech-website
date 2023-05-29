@@ -1,7 +1,10 @@
 body{
 
 }
-
+.container{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important; 
+}
 /* haeder  */
 /* haeder  */
 
@@ -88,3 +91,10 @@ font-size: 25px
     font-weight: 500;
 }
 /* Explore The elearning Institute section start */
+
+/* ready_to_section */
+.ready_to_section{
+    background-color: #289BDE;
+    color: white;
+}
+/* ready_to_section */
