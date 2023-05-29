@@ -5,6 +5,7 @@ body{
     margin-top: 100px !important;
     margin-bottom: 100px !important; 
 }
+
 /* haeder  */
 /* haeder  */
 
@@ -98,3 +99,38 @@ font-size: 25px
     color: white;
 }
 /* ready_to_section */
+
+/* successful_students */
+.successful_students{
+
+}
+.successful_students p{
+    color: #777777;
+}
+
+.students h4{
+color: #4A4A4A;
+}
+.students p{
+    color: #777777;
+}
+/* successful_students */
+/* students_feedback  */
+.students_feedback p{
+    color: #777777;
+}
+.carousel-control-prev {
+    left: 0px;
+    border-radius: 50%;
+    width: 6% !important;
+}
+.carousel-control-next {
+    right: 0px;
+    border-radius: 50%;
+    width: 5% !important;
+    
+}
+.feedback p{
+    color: #777777;
+}
+/* students_feedback  */
