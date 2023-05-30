@@ -18,14 +18,48 @@
 </head>
   <body>
     <!-- header start  -->
-    <header class="container custom_container my-5">
-       
+    <header class="  ">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+              <a class="navbar-brand " href="#"><h1 class="fw-bold">Pro Edu</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#Courses">Courses</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#Deals">Deals</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#Success">Success</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#Register">Register</a>
+                  </li>
+                                                              
+                </ul>
+                <form class="d-flex" role="search">
+                 
+                  <button class="btn btn-outline-primary" type="submit">Register</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- header end  -->
     <!-- main start  -->
     <main>
         <!-- banner section start  -->
-        <section class="container custom_container my-5" >
+        <section class="container  my-5 mt-0" id="home">
             <div id="carouselExampleDark" class="carousel carousel-fade slide">
      
                 <div class="carousel-inner">
@@ -33,12 +67,16 @@
                     <div class="banner_img">
                     <img src="images/cover/cover-1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-caption custom_caption">
-                      <h1>Get Started Digital <br> Learning</h1>
-                      <p>It is a long established fact that a reader will  be  <br  class="d-block d-sm-none"> distracted by the readable content of a <br class="d-block d-sm-none"> page when looking at its layout.</p>
-                      <a href="#" class="btn btn-primary px-4">GET STARTED</a>
-    
+                   <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="carousel-caption custom_caption">
+                            <h1>Get Started Digital <br> Learning</h1>
+                            <p>It is a long established fact that a reader will  be  <br  class="d-block d-sm-none"> distracted by the readable content of a <br class="d-block d-sm-none"> page when looking at its layout.</p>
+                            <a href="#" class="btn btn-primary px-4">GET STARTED</a>
+          
+                          </div>
                     </div>
+                   </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                    <div class="banner_img">
@@ -74,7 +112,7 @@
         </section>
         <!-- banner section end  -->
         <!-- Discover Our Popular Courses Section start  -->
-        <section class="container custom_container my-5">
+        <section class="container custom_container my-5" id="Courses">
             <div class="section_title text-center mb-5">
                 <h1 >Discover Our Popular Courses</h1>
             <p>It is a long established fact that a reader will be distracted by the readable <br class="d-none d-sm-block"> content of a page when looking at its layout.</p>
@@ -163,7 +201,7 @@
         <!-- Discover Our Popular Courses Section end  -->
 
         <!-- Explore The elearning Institute section start -->
-        <section class="container custom_container">
+        <section class="container custom_container" id="About">
             <div class="row expolore">
                 <div class="col-lg-5 col-md-6 p-0">
                     <img src="images/working.png" class="w-100" alt="">
@@ -177,8 +215,8 @@
                         <p class="d-none d-lg-block">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
                       <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-2 "> 
                         <div class=""> <h1 class="online_course_2k fw-bold">3.2K+ <br> <span class="online_Course">Online Course</span></h1></div>
-                        <div class=""> <h1 class="online_course_2k fw-bold">3.2K+ <br> <span class="online_Course">Online Course</span></h1></div>
-                        <div class=""> <h1 class="online_course_2k fw-bold">3.2K+ <br> <span class="online_Course">Online Course</span></h1></div>
+                        <div class=""> <h1 class="online_course_2k fw-bold">600+ <br> <span class="online_Course">Expert member</span></h1></div>
+                        <div class=""> <h1 class="online_course_2k fw-bold">1k+ <br> <span class="online_Course">Rating & Review</span></h1></div>
                        </div>
                        <a href="#" class="btn btn-primary">Read More</a>
                    </div>
@@ -188,7 +226,7 @@
         <!-- Explore The elearning Institute section end -->
         <!-- Ready to join Section Start -->
 
-        <section class="container custom_container  ready_to_section">
+        <section class="container custom_container  ready_to_section" id="Register">
             <div class="row  p-5 align-items-center text-md-start text-center">
                 <div class="col-lg-6 col-md-8 col-sm-12 col-12">
                     <h1>Ready to join?</h1>
@@ -202,7 +240,7 @@
         <!-- Ready to join Section End-->
 
         <!-- Meet Our Successfull Students Start -->
-        <section class="container custom_container">
+        <section class="container custom_container" id="Success">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12"><div class="successful_students  text-center text-sm-start mb-5">
                     <h1 class="fw-bold">Meet Our Successfull Students</h1>

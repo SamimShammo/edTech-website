@@ -9,7 +9,7 @@
         font-size: 28px;
     }
     .custom_caption p{
-        font-size: 12px;
+        font-size: 11px;
         margin: 7px;
         line-height: 20px;
     }
@@ -36,7 +36,23 @@ padding: 4px 7px !important;
     
     /* Small devices (landscape phones, 576px and up) */
     @media (min-width: 576px) and (max-width: 767.98px) { 
-        
+        .custom_caption {
+            bottom: 2rem !important;
+        }
+        .custom_caption h1{
+            font-size: 35px;
+        }
+        .custom_caption p{
+            font-size: 14px;
+            margin: 7px;
+            line-height: 20px;
+        }
+        .custom_caption a{
+            
+    font-size: 13px;
+            
+    padding: 4px 7px !important;
+        }
         .accordion{
             width: 100% !important;
         }
@@ -44,7 +60,23 @@ padding: 4px 7px !important;
     
      /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) and (max-width: 991.98px) {
-    
+        .custom_caption {
+            bottom: 4rem !important;
+        }
+        .custom_caption h1{
+            font-size: 40px;
+        }
+        .custom_caption p{
+            font-size: 14px;
+            margin: 7px;
+            line-height: 20px;
+        }
+        .custom_caption a{
+            
+    font-size: 13px;
+            
+    padding: 4px 7px !important;
+        }
         .expolore_details h1{
           font-size: 25px;
         }
