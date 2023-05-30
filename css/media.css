@@ -25,13 +25,17 @@ padding: 4px 7px !important;
     .course img{ 
         width: 100%;
     
+    }   .accordion{
+        width: 100% !important;
     }
      }
     
     /* Small devices (landscape phones, 576px and up) */
     @media (min-width: 576px) and (max-width: 767.98px) { 
         
-
+        .accordion{
+            width: 100% !important;
+        }
     }
     
      /* Medium devices (tablets, 768px and up) */
@@ -39,6 +43,9 @@ padding: 4px 7px !important;
     
         .expolore_details h1{
           font-size: 25px;
+        }
+        .accordion{
+            width: 100% !important;
         }
      }
     

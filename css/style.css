@@ -1,7 +1,7 @@
 body{
-
+    font-family: 'Poppins';
 }
-.container{
+.custom_container{
     margin-top: 100px !important;
     margin-bottom: 100px !important; 
 }
@@ -134,3 +134,27 @@ color: #4A4A4A;
     color: #777777;
 }
 /* students_feedback  */
+
+/* Frequently_Asked_Questions  */
+.Frequently_Asked_Questions p{
+    color: #777777;
+}
+.accordion{
+    width: 75% !important;
+}
+.accordion-body p{
+    color: #777777;
+}
+/* Frequently_Asked_Questions  */
+/* footer  */
+footer{
+    background-color: black;
+}
+.footer_details h1{
+    color: white;
+}
+.footer_details p{
+    color: #E8E8E8;
+    margin: 0;
+}
+/* footer  */
